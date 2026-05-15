@@ -29,3 +29,7 @@
     <div align= "center">  </div> 
     </div>
     
+<!-- 푸터 -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:FBBF24&height=120&section=footer"/>
+</div>
