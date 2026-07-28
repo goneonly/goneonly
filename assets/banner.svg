@@ -1,29 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Jiwon Han - Cloud, Backend, Java">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Jiwon Han — Aspiring Cloud Architect · Java Backend Cloud">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1B3A6B"/>
-      <stop offset="55%" stop-color="#27568F"/>
-      <stop offset="100%" stop-color="#1E3F73"/>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceae7"></stop>
+      <stop offset="1" stop-color="#d9d6d2"></stop>
     </linearGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8CC0FF"/>
-      <stop offset="100%" stop-color="#8CC0FF" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="#FFFFFF" fill-opacity="0.08"/>
-    </pattern>
+    <clipPath id="win">
+      <rect x="0.5" y="0.5" width="1279" height="319" rx="10" ry="10"></rect>
+    </clipPath>
   </defs>
+  
 
-  <rect width="1200" height="240" rx="10" fill="url(#bg)"/>
-  <rect width="1200" height="240" rx="10" fill="url(#dots)"/>
+  <g clip-path="url(#win)">
+    <rect x="0" y="0" width="1280" height="320" fill="#ffffff"></rect>
+    <rect x="0" y="0" width="1280" height="44" fill="url(#bar)"></rect>
+    <line x1="0" y1="43.5" x2="1280" y2="43.5" stroke="#b3afab" stroke-width="1"></line>
 
-  <g transform="translate(1055,120)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
-    <path d="M-30 -19 L-52 0 L-30 19" stroke="#E4EFFF" stroke-opacity="0.9"/>
-    <path d="M30 -19 L52 0 L30 19" stroke="#E4EFFF" stroke-opacity="0.9"/>
-    <path d="M11 -26 L-11 26" stroke="#8CC0FF" stroke-opacity="0.95"/>
+    <circle cx="26" cy="22" r="6" fill="#ff5f57" stroke="#e0443e" stroke-width="0.5"></circle>
+    <circle cx="46" cy="22" r="6" fill="#febc2e" stroke="#d89e24" stroke-width="0.5"></circle>
+    <circle cx="66" cy="22" r="6" fill="#28c840" stroke="#1aab29" stroke-width="0.5"></circle>
+    <text class="ui" x="640" y="27" font-size="13" fill="#4b4845" text-anchor="middle">jiwon — -zsh — 80×24</text>
+
+    <text class="m" x="26" y="76" font-size="14" fill="#5c5c5c">Last login: Tue Jul 28 09:41:02 on ttys001</text>
+    <text class="m" x="26" y="100" font-size="14" fill="#000000">jiwon@CAU ~ % whoami --verbose</text>
+
+    <text class="m" x="26" y="164" font-size="56" font-weight="700" letter-spacing="-1.1" fill="#000000">Jiwon Han</text>
+    <text class="m" x="26" y="206" font-size="22" fill="#1d1d1d">Aspiring Cloud Architect</text>
+    <text class="m" x="26" y="240" font-size="22" fill="#6b6b6b" word-spacing="10">Java Backend Cloud</text>
+
+    <text class="m" x="26" y="272" font-size="14" fill="#000000">jiwon@CAU ~ %</text>
+    <rect class="cursor" x="146" y="258" width="9" height="18" fill="#000000"></rect>
   </g>
-
-  <text x="80" y="122" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="60" font-weight="600" fill="#FFFFFF" letter-spacing="0.5">Jiwon Han</text>
-  <rect x="80" y="145" width="130" height="3" rx="1.5" fill="url(#rule)"/>
-  <text x="80" y="182" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#C6DCF7" letter-spacing="3.4">CLOUD &#183; BACKEND &#183; JAVA</text>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="10" ry="10" fill="none" stroke="#b9b6b3" stroke-width="1"></rect>
 </svg>
