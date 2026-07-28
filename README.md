@@ -5,18 +5,6 @@
 
 <br/>
 
-<!-- 소개 -->
-<div style="text-align: left;">
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">
-    👨‍💻 한지원
-  </h2>
-  <div style="font-weight: 700; font-size: 15px; color: #282d33;">
-    CSE @ CAU '24, Aspiring Cloud Architect
-  </div>
-</div>
-
-<br/>
-
 <!-- 기술 스택 -->
 <div style="text-align: left;">
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">
