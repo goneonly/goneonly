@@ -8,7 +8,6 @@
       <rect x="0.5" y="0.5" width="1279" height="319" rx="10" ry="10"></rect>
     </clipPath>
   </defs>
-  
 
   <g clip-path="url(#win)">
     <rect x="0" y="0" width="1280" height="320" fill="#ffffff"></rect>
@@ -18,17 +17,19 @@
     <circle cx="26" cy="22" r="6" fill="#ff5f57" stroke="#e0443e" stroke-width="0.5"></circle>
     <circle cx="46" cy="22" r="6" fill="#febc2e" stroke="#d89e24" stroke-width="0.5"></circle>
     <circle cx="66" cy="22" r="6" fill="#28c840" stroke="#1aab29" stroke-width="0.5"></circle>
-    <text class="ui" x="640" y="27" font-size="13" fill="#4b4845" text-anchor="middle">jiwon — -zsh — 80×24</text>
+    <text x="640" y="27" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#4b4845" text-anchor="middle">jiwon &#8212; -zsh &#8212; 80&#215;24</text>
 
-    <text class="m" x="26" y="76" font-size="14" fill="#5c5c5c">Last login: Tue Jul 28 09:41:02 on ttys001</text>
-    <text class="m" x="26" y="100" font-size="14" fill="#000000">jiwon@CAU ~ % whoami --verbose</text>
+    <text x="26" y="76" font-family="SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="14" fill="#5c5c5c">Last login: Sun Dec 08 on ttys001</text>
+    <text x="26" y="100" font-family="SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="14" fill="#000000">jiwon@macbook-pro ~ % whoami --verbose</text>
 
-    <text class="m" x="26" y="164" font-size="56" font-weight="700" letter-spacing="-1.1" fill="#000000">Jiwon Han</text>
-    <text class="m" x="26" y="206" font-size="22" fill="#1d1d1d">Aspiring Cloud Architect</text>
-    <text class="m" x="26" y="240" font-size="22" fill="#6b6b6b" word-spacing="10">Java Backend Cloud</text>
+    <text x="26" y="164" font-family="SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="56" font-weight="700" letter-spacing="-1.1" fill="#000000">Jiwon Han</text>
+    <text x="26" y="206" font-family="SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="22" fill="#1d1d1d">Aspiring Cloud Architect</text>
+    <text x="26" y="240" font-family="SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="22" fill="#6b6b6b" word-spacing="10">Java Backend Cloud</text>
 
-    <text class="m" x="26" y="272" font-size="14" fill="#000000">jiwon@CAU ~ %</text>
-    <rect class="cursor" x="146" y="258" width="9" height="18" fill="#000000"></rect>
+    <text x="26" y="272" font-family="SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="14" fill="#000000">jiwon@macbook-pro ~ %</text>
+    <rect x="215" y="258" width="9" height="18" fill="#000000">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" calcMode="discrete" repeatCount="indefinite"></animate>
+    </rect>
   </g>
   <rect x="0.5" y="0.5" width="1279" height="319" rx="10" ry="10" fill="none" stroke="#b9b6b3" stroke-width="1"></rect>
 </svg>
