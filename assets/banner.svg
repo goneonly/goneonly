@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Jiwon Han - Cloud, Backend, Java">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B3A6B"/>
+      <stop offset="55%" stop-color="#27568F"/>
+      <stop offset="100%" stop-color="#1E3F73"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8CC0FF"/>
+      <stop offset="100%" stop-color="#8CC0FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#FFFFFF" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="240" rx="10" fill="url(#bg)"/>
+  <rect width="1200" height="240" rx="10" fill="url(#dots)"/>
+
+  <g transform="translate(1055,120)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M-30 -19 L-52 0 L-30 19" stroke="#E4EFFF" stroke-opacity="0.9"/>
+    <path d="M30 -19 L52 0 L30 19" stroke="#E4EFFF" stroke-opacity="0.9"/>
+    <path d="M11 -26 L-11 26" stroke="#8CC0FF" stroke-opacity="0.95"/>
+  </g>
+
+  <text x="80" y="122" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="60" font-weight="600" fill="#FFFFFF" letter-spacing="0.5">Jiwon Han</text>
+  <rect x="80" y="145" width="130" height="3" rx="1.5" fill="url(#rule)"/>
+  <text x="80" y="182" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#C6DCF7" letter-spacing="3.4">CLOUD &#183; BACKEND &#183; JAVA</text>
+</svg>
