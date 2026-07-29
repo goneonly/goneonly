@@ -1,7 +1,7 @@
 <!-- 헤더 -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-windows.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-windows.svg?v=2" />
     <img src="./assets/banner.svg" width="100%" alt="Jiwon Han — CSE @ CAU '24, Aspiring Cloud Architect" />
   </picture>
 </div>
