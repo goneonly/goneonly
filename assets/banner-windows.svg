@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Jiwon Han — Aspiring Cloud Architect · Java Backend Cloud">
+  <style>
+    .m  { font-family: "Cascadia Mono", "Cascadia Code", Consolas,
+          "Liberation Mono", Menlo, monospace; }
+    .ui { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont,
+          Helvetica, Arial, sans-serif; }
+    .cursor { animation: blink 1.06s step-end infinite; }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+
+  <rect x="0" y="0" width="1280" height="320" fill="#0c0c0c"></rect>
+
+  
+  <rect x="0" y="0" width="1280" height="40" fill="#202020"></rect>
+  <path d="M6 40 L6 11 Q6 5 12 5 L149 5 Q155 5 155 11 L155 40 Z" fill="#0c0c0c"></path>
+  <rect x="22" y="16" width="13" height="13" fill="#0078d4"></rect>
+  <text class="m" x="45" y="27" font-size="12" fill="#f2f2f2">PowerShell</text>
+  <g fill="none" stroke-width="1.2" stroke-linecap="square">
+    <path d="M133 18.5l7 7M140 18.5l-7 7" stroke="#8a8a8a"></path>
+    <path d="M173 22h10M178 17v10" stroke="#cfcfcf"></path>
+    <path d="M204.5 20.5l3.5 3.5 3.5-3.5" stroke="#cfcfcf"></path>
+    <path d="M1152 22h10" stroke="#e6e6e6"></path>
+    <rect x="1198.5" y="17.5" width="9" height="9" stroke="#e6e6e6"></rect>
+  </g>
+  <rect x="1226" y="0" width="54" height="40" fill="#c42b1c"></rect>
+  <path d="M1249 17.5l8 8M1257 17.5l-8 8" fill="none" stroke="#ffffff"
+        stroke-width="1.2" stroke-linecap="square"></path>
+
+  
+  <text class="m" x="26" y="90" font-size="15" fill="#9d9d9d">Windows PowerShell — Copyright (C) Microsoft Corporation.</text>
+  <text class="m" x="26" y="118" font-size="15" fill="#cccccc">PS C:\Users\jiwon&gt; <tspan fill="#f2f2f2">whoami /profile</tspan></text>
+
+  <text class="m" x="26" y="174" font-size="40" font-weight="700" letter-spacing="-0.6" fill="#f2f2f2">Jiwon Han</text>
+  <text class="m" x="26" y="210" font-size="19" fill="#3aa8f0">Aspiring Cloud Architect</text>
+  <text class="m" x="26" y="240" font-size="19" fill="#9d9d9d" word-spacing="8">Java Backend Cloud</text>
+
+  <text class="m" x="26" y="278" font-size="15" fill="#cccccc">PS C:\Users\jiwon&gt;</text>
+  <rect class="cursor" x="207" y="263" width="9" height="19" fill="#f2f2f2"></rect>
+</svg>
