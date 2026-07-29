@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Jiwon Han — Aspiring Cloud Architect · Java Backend Cloud">
-  
+  <style>
+    .m  { font-family: "Cascadia Mono", "Cascadia Code", Consolas,
+          "Liberation Mono", Menlo, monospace; }
+    .ui { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont,
+          Helvetica, Arial, sans-serif; }
+    .cursor { animation: blink 1.06s step-end infinite; }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
 
   <rect x="0" y="0" width="1280" height="320" fill="#1f2430"></rect>
 
@@ -9,13 +17,16 @@
   
   <path d="M24.7 16 L38.7 16 L35.7 30 L21.7 30 Z" fill="#2f8fe0"></path>
   <text class="m" x="46" y="27" font-size="12" fill="#ffffff">PowerShell</text>
-  <text class="ui" x="132" y="26" font-size="12" fill="#9aa4b4">✕</text>
-  <text class="ui" x="172" y="27" font-size="14" fill="#cfd6e0">＋</text>
-  <text class="ui" x="204" y="25" font-size="10" fill="#cfd6e0">▾</text>
-  <text class="ui" x="1157" y="26" font-size="13" fill="#e8ecf3" text-anchor="middle">−</text>
-  <text class="ui" x="1203" y="25" font-size="12" fill="#e8ecf3" text-anchor="middle">□</text>
+  <g fill="none" stroke-width="1.2" stroke-linecap="square">
+    <path d="M133 18.5l7 7M140 18.5l-7 7" stroke="#9aa4b4"></path>
+    <path d="M173 22h10M178 17v10" stroke="#cfd6e0"></path>
+    <path d="M204.5 20.5l3.5 3.5 3.5-3.5" stroke="#cfd6e0"></path>
+    <path d="M1152 22h10" stroke="#e8ecf3"></path>
+    <rect x="1198.5" y="17.5" width="9" height="9" stroke="#e8ecf3"></rect>
+  </g>
   <rect x="1226" y="0" width="54" height="40" fill="#c42b1c"></rect>
-  <text class="ui" x="1253" y="26" font-size="12" fill="#ffffff" text-anchor="middle">✕</text>
+  <path d="M1249 17.5l8 8M1257 17.5l-8 8" fill="none" stroke="#ffffff"
+        stroke-width="1.2" stroke-linecap="square"></path>
 
   
   <text class="m" x="26" y="90" font-size="15" fill="#a7b0bf">Windows PowerShell — Copyright (C) Microsoft Corporation.</text>
