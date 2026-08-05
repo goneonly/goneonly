@@ -25,9 +25,10 @@
 </div>
 
 <br/>
+<br/>
 
 <!-- profile views -->
-<div align="center">
+<div align="right">
   <a href="https://hits.sh/github.com/goneonly/">
     <img src="https://hits.sh/github.com/goneonly.svg?view=today-total&style=for-the-badge&label=profile%20views&color=d3d1c7&labelColor=b4b2a9" alt="Profile views" />
   </a>
