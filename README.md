@@ -26,3 +26,14 @@
 
 <br/>
 <br/>
+
+<br>
+
+<p align="center">
+  <a href="https://solved.ac/onlygone">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/goneonly/boj-badge/main/badges/a1-dark.svg">
+      <img src="https://raw.githubusercontent.com/goneonly/boj-badge/main/badges/a1-light.svg" width="340" alt="solved.ac 티어">
+    </picture>
+  </a>
+</p>
